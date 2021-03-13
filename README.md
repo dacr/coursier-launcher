@@ -1,12 +1,12 @@
 # coursier-launcher container
 
 **coursier-launcher** is an easy to use [coursier][cs] docker container with
-artifacts cache easily sharable between application by using docker volumes.
+artifacts cache easily sharable between applications by using docker volumes.
 
 The typical usage of this container is to start application or web services
-by only relying on maven repositories to download only the required files,
+by only relying on maven repositories to download just the required files,
 it makes it possible to achieve kilobytes deployments size, it accelerates
-CI/CD pipelines has we don't have to create dedicated container images, ...
+CI/CD pipelines as we don't have anymore to create dedicated container images,...
 
 Typical usage examples :
 ```shell
