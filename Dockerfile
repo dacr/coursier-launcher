@@ -1,4 +1,4 @@
-FROM openjdk:15-jdk-slim
+FROM openjdk:8-jdk-slim
 #FROM openjdk:15-jdk-alpine
 MAINTAINER David Crosson <crosson.david@gmail.com>
 
