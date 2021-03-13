@@ -1,1 +1,1 @@
-# coursier-launcher
+# coursier-launcher docker container
