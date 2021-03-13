@@ -1,5 +1,5 @@
-FROM openjdk:15-jdk-slim
-#FROM openjdk:15-jdk-alpine
+FROM openjdk:11-jdk-slim
+#FROM openjdk:11-jdk-alpine
 MAINTAINER David Crosson <crosson.david@gmail.com>
 
 #RUN apk add ncurses
