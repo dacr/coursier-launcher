@@ -32,7 +32,7 @@ $CSW launch fr.janalyse::web-echo:1.1.9
 $CSW launch fr.janalyse::spy:1.0.2
 
 CSWP="docker run -it --rm -p 8080:8080 -e PRIMES_MAX_COUNT=42 -v artifacts:/coursier-cache dacr/coursier-launcher"
-$CSWP launch fr.janalyse::primes-server-akkahttp:1.0.2
+$CSWP launch fr.janalyse::primes-server-akkahttp:1.0.3
 ```
 
 
