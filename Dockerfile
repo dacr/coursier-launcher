@@ -1,4 +1,4 @@
-FROM openjdk:16-jdk-slim
+FROM openjdk:15-jdk-slim
 MAINTAINER David Crosson <crosson.david@gmail.com>
 
 ADD https://git.io/coursier-cli /usr/bin/cs
